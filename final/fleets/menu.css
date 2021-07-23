@@ -1,0 +1,50 @@
+#site-box {
+    position: static;
+    float: left;
+    height: 120px;
+    width: 100vw;
+    background-color: #303030;
+}
+
+#site-box p {
+    float: left;
+    font-size: 35px;
+    font-family: Bahnschrift;
+    font-style: oblique;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#menu1 {
+    position: static;
+    float: left;
+    background-color: #333;
+    width: 98vw;
+    height: 60px;
+}
+
+#nav {
+    position: relative;
+    left: -15px;
+    top: -10px;
+    list-style: none;
+    overflow: hidden;
+}
+
+#nav li {
+    position: static;
+    float: left;
+    width: 24.6%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #FFF;
+    margin-right: 4px;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 20px;
+}

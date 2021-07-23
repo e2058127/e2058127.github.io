@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang='ja'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>2058127</title>
+    <link rel='stylesheet' href='menu.css'>
+    <link rel='stylesheet' href='sample3.css'>
+</head>
+
+<body>
+    <div>
+        <div id='site-box'>
+            <p class='name1'>VIRTUAL AIRWAYS</p>
+
+        </div>
+
+        <div id='menu1'>
+            <ul id='nav'>
+                <li><a href='#'>TOP</a></li>
+                <li><a href='fleets/fleets.html'>FLEETS / ROUTES</a></li>
+                <li><a href='reserve/rsv.html'>RESERVATION</a></li>
+                <li><a href='#'>CONTUCT US</a></li>
+            </ul>
+        </div>
+
+        <div id='content'>
+            <div class='topimg'>
+                <image id='A380' src='images/airplane1.png' title='A380_VJet_Fujiaoi' alt='A380 minecraft'></image>
+                <p>
+                    YOU MAKE ME FLY... TO ANYWHERE UNTIL YOU REACH
+                </p>
+
+            </div>
+
+            <div id='inq'>
+                <div id='title_search'>航空便検索</div>
+
+                <form name='departure1'>
+                    <div id='dep'>
+                        <p id='search'>出発</p>
+                        <select id='departure' name='departure' size='1'>
+                            <option value='0' >羽田 - 東京国際空港 - HND/RJTT</option>
+                            <option value='1' >成田 - 成田国際空港 - NRT/RJAA</option>
+                            <option value='2' >札幌 - 新千歳空港 - CTS/RJCC</option>
+                            <option value='3' >関西 - 関西国際空港 - KIX/RJBB</option>
+                        </select>
+                    </div>
+                </form>
+
+                <form name='arrival1'>
+                    <div id='arr'>
+                        <p id='search'>到着</p>
+                        <select id='arrival' name='arrival' size='1'>
+                            <option value='0' >羽田 - 東京国際空港 - HND/RJTT</option>
+                            <option value='1' >成田 - 成田国際空港 - NRT/RJAA</option>
+                            <option value='2' >札幌 - 新千歳空港 - CTS/RJCC</option>
+                            <option value='3' >関西 - 関西国際空港 - KIX/RJBB</option>
+                        </select>
+                    </div>
+
+                </form>
+
+                <div id='date'>
+                    <p id='dateofdep'>出発日</p>
+                    <div id='date1'>
+                        <input type='date'></input>
+                    </div>
+                </div>
+
+                <ul id='search_btn'>
+                    <li><a id='rsv' onclick='get_url_rsv();' href='#'>検索</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id='menu'></div>
+
+        <div id='footer'>
+            aaa
+        </div>
+
+        <script type='text/javascript' src='index.js'></script>
+    </div>
+
+</body>
+
+</html>

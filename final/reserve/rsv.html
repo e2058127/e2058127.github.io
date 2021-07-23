@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang='ja'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>2058127</title>
+    <link rel='stylesheet' href='menu.css'>
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+    <div>
+        <div id='site-box'>
+            <p class='name1'>VIRTUAL AIRWAYS</p>
+
+        </div>
+
+        <div id='menu1'>
+            <ul id='nav'>
+                <li><a href='../index.html'>TOP</a></li>
+                <li><a href='../fleets/fleets.html'>FLEETS / ROUTES</a></li>
+                <li><a href='../reserve/rsv.html'>RESERVATION</a></li>
+                <li><a href='../index.html'>CONTUCT US</a></li>
+            </ul>
+        </div>
+
+        <div id='content'>
+            <div id=title1>区間検索</div>
+
+            <form name='departure1'>
+                <div id='dep'>
+                    <p id='search'>出発</p>
+                    <select id='departure' name='departure' size='1'>
+                        <option value='0' >羽田 - 東京国際空港 - HND/RJTT</option>
+                        <option value='1' >成田 - 成田国際空港 - NRT/RJAA</option>
+                        <option value='2' >札幌 - 新千歳空港 - CTS/RJCC</option>
+                        <option value='3' >関西 - 関西国際空港 - KIX/RJBB</option>
+                    </select>
+                </div>
+            </form>
+
+            <form name='arrival1'>
+                <div id='arr'>
+                    <p id='search'>到着</p>
+                    <select id='arrival' name='arrival' size='1'>
+                        <option value='0' >羽田 - 東京国際空港 - HND/RJTT</option>
+                        <option value='1' >成田 - 成田国際空港 - NRT/RJAA</option>
+                        <option value='2' >札幌 - 新千歳空港 - CTS/RJCC</option>
+                        <option value='3' >関西 - 関西国際空港 - KIX/RJBB</option>
+                    </select>
+                </div>
+
+            </form>
+
+            <ul id='search_btn'>
+                <li><a id='rsv' onclick='get_url_rsv();' href='#'>更新</a></li>
+            </ul>
+
+            <table border="0" id='targetTable'>
+                <thread>
+                    <tr id='title'>
+                        <td>出発</td>
+                        <td></td>
+                        <td>到着</td>
+                        <td>普通運賃</td>
+                        <td>Virtual Value 21</td>
+                        <td>株主優待</td>
+                    </tr>
+                </thread>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div id='menu'></div>
+
+        <div id='footer'>
+            aaa
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type='text/javascript' src='rsv.js'></script>
+
+</body>
+
+</html>

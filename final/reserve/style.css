@@ -1,0 +1,91 @@
+    #targetTable {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #title {
+        text-align: center;
+        background-color: #333;
+        color: #FFF;
+        font-weight: bold;
+    }
+    
+    #title1 {
+        top: 1vw;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    #dep,
+    #departure,
+    #arr,
+    #arrival {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    #test {
+        width: 60px;
+        height: 90px;
+        text-align: center;
+    }
+    
+    #row2 {
+        background: #EEE;
+    }
+    
+    #vect {
+        width: 30px;
+        text-align: center;
+    }
+    
+    #fee {
+        width: 120px;
+        text-align: center;
+        text-decoration: none;
+        color: #FFF;
+    }
+    
+    #fee a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #333;
+        font-weight: bold;
+        padding: 20px 15px;
+    }
+    
+    #fee a:hover {
+        background-color: #555;
+    }
+    
+    #search_btn {
+        position: relative;
+        text-align: center;
+        list-style: none;
+        left: 38.5vw;
+        /* top: -50px; */
+    }
+    
+    #search_btn li {
+        width: 150px;
+        height: 35px;
+        text-align: center;
+        background-color: #333;
+        line-height: 35px;
+    }
+    
+    #search_btn li a {
+        text-align: center;
+        text-decoration: none;
+        color: #FFF;
+        font-weight: bold;
+        padding: 20px;
+    }
+    
+    #footer {
+        clear: both;
+        width: 100%;
+        height: 30px;
+    }

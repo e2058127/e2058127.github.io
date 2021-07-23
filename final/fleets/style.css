@@ -1,0 +1,40 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+}
+
+#frame1 {
+    float: left;
+    margin: auto;
+    padding: 1vw;
+}
+
+#frame2 {
+    float: left;
+    margin: auto;
+    padding: 1vw;
+}
+
+#frame1 img,
+#frame2 img {
+    height: 20vw;
+}
+
+#desc {
+    font-weight: bold;
+}
+
+#footer {
+    clear: both;
+    width: 100%;
+    height: 30px;
+}
